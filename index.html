@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cha Cha Cha</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/CC.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blogs">News</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Special Offers</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cha1.webp" alt="">
+            <div class="content">
+                <h3>Workhorse Assam 2nd Flush</h3>
+                <div class="price">$17.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cha2.webp" alt="">
+            <div class="content">
+                <h3>Ceylon Manjary Handspun</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cha3.webp" alt="">
+            <div class="content">
+                <h3>Trail Rider</h3>
+                <div class="price">$10.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/cha4.webp" alt="">
+            <div class="content">
+                <h3>Sundial Silver Needles</h3>
+                <div class="price">$19.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+ 
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" onclick="history.back()" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+
+
+  
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Cha Cha Cha World</h3>
+        <p>Welcome to Cha, Worldclass's Tea</p>
+        <a href="#products" class="btn">Order Now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/tea.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our Tea special?</h3>
+            <p>Here at Cha, we believe that tea isn't only a drink but the history</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LaLvVc1sS20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> our <span>Menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cha1.webp" alt="">
+            <h3>Workhorse Assam 2nd Flush</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cha2.webp" alt="">
+            <h3>Sundial Silver Needles</h3>
+            <div class="price">$16.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cha3.webp" alt="">
+            <h3>Ceylon Manjary Handspun</h3>
+            <div class="price">$17.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cha4.webp" alt="">
+            <h3>Roasted High Mountain Oolong</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cha5.webp" alt="">
+            <h3>Trail Rider</h3>
+            <div class="price">$13.99 <span>30.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cha6.webp" alt="">
+            <h3>LiShan Oolong</h3>
+            <div class="price">$10.99 <span>40.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>Special Offers</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="images/pd1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Birthday Set</h3>
+                <div class="price">$149 <span>$199</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="box">
+           
+            <div class="image">
+                <img src="images/pd2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Kids Set</h3>
+                <div class="price">$1599.99 <span>$2000.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="box">
+           
+            <div class="image">
+                <img src="images/pd3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Luxury Set</h3>
+                <div class="price">$1999 <span>$2500</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+        </div>
+         <div class="box">
+           
+            <div class="image">
+                <img src="images/pd4.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Exclusive Set</h3>
+                <div class="price">$499 <span>$1000</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+
+        
+        </div>
+        <div class="box">
+           
+            <div class="image">
+                <img src="images/pd5.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Limited Edition</h3>
+                <div class="price">$1500 <span>$2500</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="box">
+           
+            <div class="image">
+                <img src="images/pd6.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Chinese New Year</h3>
+                <div class="price">$1888 <span>$1999</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Cha's Fan <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>One of the best tea in the world. I'm very satisfied with Cha's quality. I will definitely recommend my family and friends to buy tea from here</p>
+            <img src="images/re1.jpeg" class="user" alt="">
+            <h3>Michel Uno</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p> The service is awesome, fast delivery, clean, wonderful tea quality. This is one of my top3 store to buy tea. I'm highly recommend!</p>
+            <img src="images/re2.jpeg" class="user" alt="">
+            <h3>Zara Minor</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Where else could I buy Tea in this quality and price! Don't be hesitated! The quality is wholesome!</p>
+            <img src="images/pe3.jpeg" class="user" alt="">
+            <h3>Nick Jason</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Excellent Service and Quick Delivery, I have been a fan for so many years. Thanks CHA!</p>
+            <img src="images/pe4.webp" class="user" alt="">
+            <h3>Marry Jane</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Delightful for CHA Service!</p>
+            <img src="images/pe5.jpeg" class="user" alt="">
+            <h3>Anna H.</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>I'm always excited to receive package from Cha, not only an affordable price but alway have discount and promotions</p>
+            <img src="images/pe6.jpeg" class="user" alt="">
+            <h3>Gloden Nex</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+<!-- news section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>Cha News</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/news1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">THE 24 SOLAR TERMS - WINTER</a>
+                <span>Posted on 11/29/2022 by Sarah Chen </span>
+                <p>The winter tea harvest is the smallest of the year. Winter tea begins to be harvested from high-altitude tea areas in September, then gradually descends to the lower-altitude tea areas. The harvesting period is no later than late November. After the winter harvest the tea plants usually lie dormant until the spring. The dormant periods occur in the same order as the harvest: beginning with high-altitude tea areas and starting later with the lower-altitude areas.</p>
+                <a href="https://www.teafromtaiwan.com/blog/the-24-solar-terms-autumn.html" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/news2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">MAJOR HEAT AND REFRESHING TEA</a>
+                <span>Posted on 07/23/2022 by Chen Lee</span>
+                <p>Summer teas are mostly dark in color, and the leaves are thin and hard. As the temperature rises, the ultraviolet rays become stronger, causing the aroma of the tea to weaken. </p>
+                <a href="https://www.teafromtaiwan.com/blog/major-heat-and-refreshing-tea.html" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/news3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">DONG PIAN SWEET WINTER TEA</a>
+                <span>Posted on 12/5/2023 by Alice Lan</span>
+                <p>High mountain oolong tea is usually harvested only once per winter, from late October to November. If the weather permits, Dong Pian tea will sprout in December to January, and plucked before the usual Spring harvest.</p>
+                <a href="https://www.teafromtaiwan.com/blog/dong-pian-sweet-winter-tea.html" class="btn">read more</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <div class="image">
+                <img src="images/new4.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">THE HEALTH BENEFITS OF TEA </a>
+                <span>Posted on 01/23/2022 by Alice Lan</span>
+                <p>People all over the world have been drinking tea for thousands of centuries, and for good reason. Numerous studies have shown that a variety of teas may boost your immune system, fight off inflammation, and even ward off cancer and heart disease.</p>
+                <a href="https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- news section ends -->
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57858.79399864257!2d121.24419073125004!3d24.994181600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681efdbf203345%3A0xcd2c0b87d1f02137!2sTen%20Ren&#39;s%20Tea!5e0!3m2!1sen!2stw!4v1673568517838!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        
+    </div>
+
+    <div class="links">
+        <a href=#home>home</a>
+        <a href=#about>about</a>
+        <a href=#blogs>News</a>
+        <a href=#menu>menu</a>
+        <a href=#products>products</a>
+        <a href=#review>review</a>
+        <a href=#contact>contact</a>
+    </div>
+
+    <div class="credit">created by <span>Nat Kanyanut</span> | 1083643</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
